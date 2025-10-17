@@ -17,3 +17,12 @@ function newfunc() {
 # Function calls
 myfunc
 newfunc "Ranjani" "DevOps Engineer" 20
+ 
+function myfunc2() {
+    if [ -z "$1" ]; then
+        echo "hello world"
+    else
+        echo "hello $1"
+fi
+} 
+myfunc2 Ranjani
